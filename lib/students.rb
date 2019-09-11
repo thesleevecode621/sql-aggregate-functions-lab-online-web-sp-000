@@ -18,5 +18,5 @@ end
 
 
 def average_gpa_for_9th_grade
-  "SELECT MAX(gpa) FROM students WHERE grade =  9 BETWEEN 0.0001 AND 3;"
+  "SELECT MAX(gpa) FROM students WHERE grade =  9 BETWEEN 0.0001 AND ;"
 end
